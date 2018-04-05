@@ -1,0 +1,16 @@
+body{color: #fde8af;}
+#contenido{background: url(../img/bg.jpg) no-repeat center top; background-size: cover; min-height: 700px;}
+
+h1{text-transform: uppercase;}
+h2{text-transform: uppercase;}
+p.enjoy{text-transform: uppercase; font-size: 10px;}
+
+.btn-primary {
+    color: #043f28;
+    background-color: #fde8af;
+    border-color: #fde8af;
+    border-radius: 10px; 
+    text-transform: uppercase;
+}
+
+#bases{border-radius: 15px; background: #043f28; padding: 5px;}
