@@ -27,6 +27,10 @@ $(function() {
 			}
 	});
 
-    
+   
+   $('.btn-masinfo').on('click', function(){
+	 $('.bases').css('opacity','1');  
+	 $('.bases').fadeIn();
+   });
 
 });

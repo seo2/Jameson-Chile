@@ -1,9 +1,23 @@
 body{color: #fde8af;}
 #contenido{background: url(../img/bg.jpg) no-repeat center top; background-size: cover; min-height: 700px;}
 
-h1{text-transform: uppercase;}
-h2{text-transform: uppercase;}
+
+#titulo{margin-top: 30px; margin-bottom: 10px }
+h1{text-transform: uppercase; font-family: 'JJ Bl'; font-size: 32px; margin-top: 0; }
+h2{text-transform: uppercase; font-family: 'JJ Rg'; font-size: 23px; margin-bottom: 0;}
 p.enjoy{text-transform: uppercase; font-size: 10px;}
+
+h3{ font-family: 'JJ Bl'; font-size: 23px; text-align: center; margin-bottom: 30px;}
+h4{ font-family: 'JJ Bl'; font-size: 18px; }
+
+
+
+.form-horizontal .control-label {
+    font-family: 'JJ Bl';
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    text-align: left;}
 
 .btn-primary {
     color: #043f28;
@@ -13,7 +27,23 @@ p.enjoy{text-transform: uppercase; font-size: 10px;}
     text-transform: uppercase;
 }
 
-#bases{border-radius: 15px; background: #043f28; padding: 5px;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fde8af;
+    background-color: #000;
+    border-color: #000;
+    border-radius: 10px; 
+    text-transform: uppercase;
+}
+label.error{font-size: 10px; font-family: arial;}
+
+.checkbox label{text-transform: uppercase; font-family: 'JJ Rg';padding: 0; margin-left: -15px;}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]{position: inherit; margin: 0;font-size: 17px;}
+
+#logo{margin-bottom: 30px; margin-top: 30px;}
+.bases{border-radius: 15px; background: #043f28; padding: 10px 10px 20px; opacity: 0; transition: all ease-in-out 0.2s; margin-top: 100%;}
+.bases ul{font-size: 11px; padding: 0 0 0 15px; margin-top: 20px;font-family: 'JJ Rg';}
+.bases ul li{margin-bottom: 15px;}
+.btn-masinfo{    margin-top: -20px; position: relative; z-index: 10;}
 
 .loading{
 	width: 50px;
@@ -21,4 +51,17 @@ p.enjoy{text-transform: uppercase; font-size: 10px;}
 	display: none;
 	margin: 0  auto;
 	background: url("../img/loading.gif") center center no-repeat;
+}
+
+#botella{margin-top: 110%;}
+
+
+@media (max-width: 767px) { 
+	h1{font-size: 22px; } 
+	h2{font-size: 18px; margin-top: 15px;}
+	h3{font-size: 17px; margin-bottom: 10px;}
+	.form-horizontal .control-label{font-size: 17px;margin-left: 15px;}
+	.checkbox label{margin-left: 0;}
+	.bases{opacity: 1; margin-top: auto;}
+	form{margin-bottom: 30px;}
 }
